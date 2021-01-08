@@ -31,9 +31,9 @@ R_i = ''
 if 1 <= I_m <= 3:
     R_m = I_m * 'M'
 elif 4 <= I_m <= 8:
-    R_m = ('M' if I_m == 4 else '') + '\V' + ('' if I_m == 5 else (I_m - 5) * 'M')
+    R_m = ('M' if I_m == 4 else '') + '|V' + ('' if I_m == 5 else (I_m - 5) * 'M')
 elif I_m == 9:
-    R_m = 'M\X'
+    R_m = 'M|X'
 
 if 1 <= I_c <= 3:
     R_c = I_c * 'C'
