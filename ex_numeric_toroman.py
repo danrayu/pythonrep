@@ -14,7 +14,6 @@ while True:
         print("Should be an integer up to 9999")
 
 I_digits = []
-print(I_number)
 for digit in str(I_number):
     I_digits.append(int(digit))
 
