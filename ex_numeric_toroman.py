@@ -1,6 +1,8 @@
 """
 This exercise converts numeric numbers into Roman with up to 9999,
 using as little memory and as much logic as possible
+|V = 5000
+|X = 10 000
 """
 while True:
     print("Input number up to 9999:")
@@ -55,6 +57,7 @@ elif 4 <= I_i <= 8:
 elif I_i == 9:
     R_i = 'IX'
 
+print("Number converted to roman is")
 if I_number >= 1000:
     print(R_m + R_c + R_x + R_i)
 elif I_number >= 100:
