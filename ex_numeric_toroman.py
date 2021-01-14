@@ -27,7 +27,7 @@ def make_roman(I_number = 0):
     for digit in str(I_number):
         I_digits.append(int(digit))
 
-    # saving digits in array named for numeric thousands (m) hundreds (c) tens (x) and singles (i)
+    # saving digits in variable named for numeric thousands (m) hundreds (c) tens (x) and singles (i)
     N_m = I_digits[len(I_digits) - 4] if I_number >= 1000 else 0
     N_c = I_digits[len(I_digits) - 3] if I_number >= 100 else 0
     N_x = I_digits[len(I_digits) - 2] if I_number >= 10 else 0
