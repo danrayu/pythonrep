@@ -58,4 +58,4 @@ def check_if_letters():
     else:
         print("no numbers in string")
 
-check_if_letters()
+#check_if_letters()
