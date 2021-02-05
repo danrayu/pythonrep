@@ -26,4 +26,4 @@ def p_triangle_drawer(height):
         print(' ' * (height - level), current_layer)
 
 
-p_triangle_drawer(7)
+p_triangle_drawer(30)
