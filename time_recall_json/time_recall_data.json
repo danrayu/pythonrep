@@ -1,0 +1,48 @@
+[{
+  "scheduled": [
+    {
+      "1": [
+        {
+          "time": "7:35",
+          "event": "English lesson",
+          "notes": "",
+          "special": ""
+        },
+        {
+          "time": "8:25",
+          "event": "Chemistry lesson",
+          "notes": "",
+          "special": ""
+        },
+        {
+          "time": "8:25",
+          "event": "Chemistry lesson",
+          "notes": "",
+          "special": ""
+        }
+      ],
+      "5": [
+        {
+          "time": "7:35",
+          "event": "English lesson",
+          "notes": "",
+          "special": ""
+        },
+        {
+          "time": "13:25",
+          "event": "Chemistry lesson",
+          "notes": "",
+          "special": ""
+        }
+      ]
+    }
+  ],
+  "singular": [
+    {
+      "time": "13:10",
+      "date": "2021-02-11",
+      "notes": "",
+      "event": "kiril's birthday"
+    }
+  ]
+}]

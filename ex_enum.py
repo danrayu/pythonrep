@@ -18,6 +18,8 @@ for country in Country:
 """
 
 from enum import IntEnum
+
+
 class Country(IntEnum):
     Afghanistan = 93
     Albania = 355
@@ -25,5 +27,7 @@ class Country(IntEnum):
     Andorra = 376
     Angola = 244
     Antarctica = 672
+
+
 country_code_list = list(map(int, Country))
 print(country_code_list)

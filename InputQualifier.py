@@ -9,8 +9,8 @@ def input_check_if_int(message):
     while True:
         string = input(message)
         try:
-            int1 = int(string)
-            return int1
+            int(string)
+            return string
         except:
             print("Should be a whole number")
 
@@ -50,7 +50,7 @@ def input_compare_w_string(message, return_message, strings):
     while True:
         user_input = input(message)
         if user_input not in strings:
-            print("Wrong answer")
+            print("Incorrect input.")
             continue
         else:
             print(return_message)
